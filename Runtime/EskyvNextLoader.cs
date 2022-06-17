@@ -24,7 +24,7 @@ namespace BEER.XR.EskyvNext
             var buildSettings = EskyvNextBuildSettings.Instance;
             if (buildSettings != null)
             {
-                EskyvNext.EskyvNextHMD.SetRenderMode(buildSettings.renderMode);
+                //EskyvNext.EskyvNextHMD.SetRenderMode(buildSettings.renderMode);
             }
 
             return true;
