@@ -12,7 +12,7 @@ namespace BEER.XR.EskyvNext.Editor
         {
             public string packageName => "EskyvNext Plugin";
             public string packageId => "com.beer.xr.eskyvnext";
-            public string settingsType => "beer.xr.eskyvnext.EskyvNextBuildSettings";
+            public string settingsType => "BEER.XR.EskyvNext.EskyvNextBuildSettings";
             private static readonly List<IXRLoaderMetadata> s_LoaderMetadata = new List<IXRLoaderMetadata>() { new EskyvNextLoaderMetadata() };
             public List<IXRLoaderMetadata> loaderMetadata => s_LoaderMetadata;
         }
@@ -20,7 +20,7 @@ namespace BEER.XR.EskyvNext.Editor
         private class EskyvNextLoaderMetadata : IXRLoaderMetadata
         {
             public string loaderName => "EskyvNext Loader";
-            public string loaderType => "beer.xr.eskyvnext.EskyvNextLoader";
+            public string loaderType => "BEER.XR.EskyvNext.EskyvNextLoader";
 
             private static readonly List<BuildTargetGroup> s_SupportedBuildTargets = new List<BuildTargetGroup>()
             {

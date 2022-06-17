@@ -11,7 +11,7 @@ namespace BEER.XR.EskyvNext
     [XRConfigurationData("EskyvNextHMD", EskyvNextBuildSettings.BuildSettingsKey)]
     public class EskyvNextBuildSettings : ScriptableObject
     {
-        public const string BuildSettingsKey = "com.beer.xr.eskyvnext.settings";
+        public const string BuildSettingsKey = "BEER.XR.EskyvNext.settings";
 
         /// <summary>
         /// Stereo rendering mode.
