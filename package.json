@@ -1,0 +1,23 @@
+{
+  "name": "com.beer.xr.eskyvnext",
+  "displayName": "Esky vNext",
+  "version": "0.0.0-preview.1",
+  "unity": "2021.3",
+  "description": "Provides rendering and input support for Project Northstar/Open HMDs.",
+  "keywords": [
+    "project northstar",
+    "xr",
+    "reality"
+  ],
+  "dependencies": {
+    "com.unity.xr.management": "4.0.1"
+  },
+  "upmCi": {
+    "footprint": "559460b071b56f036b337b40c89c2b98"
+  },
+  "repository": {
+    "url": "git@gitlab.com:b2344/EskyvNextUnityPlugin.git",
+    "type": "git",
+    "revision": "559460b071b56f036b337b40c89c2b98"
+  }
+}
