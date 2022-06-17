@@ -16,8 +16,8 @@
     "footprint": "559460b071b56f036b337b40c89c2b98"
   },
   "repository": {
-    "url": "git@gitlab.com:b2344/EskyvNextUnityPlugin.git",
+    "url": "git@github.com:Brewed-Engagement-Extended-Reality-Labs/EskyvNextUnityPlugin.git",
     "type": "git",
-    "revision": "52d42fd79cf6beb3b2e65731abbd11a3338a81ba"
+    "revision": "e3564b50977e86d739d8678ab241249804002d14"
   }
 }
