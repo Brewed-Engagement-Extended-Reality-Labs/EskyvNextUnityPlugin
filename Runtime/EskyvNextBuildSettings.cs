@@ -8,10 +8,10 @@ namespace BEER.XR.EskyvNext
     /// <summary>
     /// Build-time settings for MockHMD provider.
     /// </summary>
-    [XRConfigurationData("EskyvNextHMD", EskyvNextBuildSettings.BuildSettingsKey)]
+    [XRConfigurationData("Esky vNext", EskyvNextBuildSettings.BuildSettingsKey)]
     public class EskyvNextBuildSettings : ScriptableObject
     {
-        public const string BuildSettingsKey = "BEER.XR.EskyvNext.settings";
+        public const string BuildSettingsKey = "beer.xr.eskyvnext.settings";
 
         /// <summary>
         /// Stereo rendering mode.

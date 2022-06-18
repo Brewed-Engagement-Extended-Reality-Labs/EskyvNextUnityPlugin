@@ -18,15 +18,18 @@ namespace BEER.XR.EskyvNext
 
         public override bool Initialize()
         {
-            CreateSubsystem<XRDisplaySubsystemDescriptor, XRDisplaySubsystem>(s_DisplaySubsystemDescriptors, "EskyvNext Display");
-            CreateSubsystem<XRInputSubsystemDescriptor, XRInputSubsystem>(s_InputSubsystemDescriptors, "EskyvNext Head Tracking");
 
             var buildSettings = EskyvNextBuildSettings.Instance;
-            if (buildSettings != null)
+            CreateSubsystem<XRDisplaySubsystemDescriptor, XRDisplaySubsystem>(s_DisplaySubsystemDescriptors, "EskyvNext Display");
+            CreateSubsystem<XRInputSubsystemDescriptor, XRInputSubsystem>(s_InputSubsystemDescriptors, "EskyvNext Head Tracking");            
+            if (buildSettings != null) 
             {
+                UnityEngine.Debug.Log("Blegh?");
+//                EskyvNext.EskyvNextHMD.Blegh();
                 //EskyvNext.EskyvNextHMD.SetRenderMode(buildSettings.renderMode);
             }
 
+            UnityEngine.Debug.Log("Blegh?");
             return true;
         }
 

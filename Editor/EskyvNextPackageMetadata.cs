@@ -19,7 +19,7 @@ namespace BEER.XR.EskyvNext.Editor
 
         private class EskyvNextLoaderMetadata : IXRLoaderMetadata
         {
-            public string loaderName => "EskyvNext Loader";
+            public string loaderName => "Esky vNext";
             public string loaderType => "BEER.XR.EskyvNext.EskyvNextLoader";
 
             private static readonly List<BuildTargetGroup> s_SupportedBuildTargets = new List<BuildTargetGroup>()

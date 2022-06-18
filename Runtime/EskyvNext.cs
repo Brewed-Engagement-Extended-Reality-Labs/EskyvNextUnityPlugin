@@ -14,7 +14,7 @@ namespace BEER.XR.EskyvNext
         /// </summary>
         /// <param name="renderMode">rendering mode</param>
         /// <returns>true if render mode successfully set</returns>
-        [DllImport(LibraryName, EntryPoint = "NativeConfig_SetRenderMode")]
-        public static extern bool SetRenderMode(EskyvNextBuildSettings.RenderMode renderMode);
+        [DllImport(LibraryName, EntryPoint = "Blegh")]
+        public static extern void Blegh();
     }
 }

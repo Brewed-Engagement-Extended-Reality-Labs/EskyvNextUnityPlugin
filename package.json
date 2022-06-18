@@ -5,9 +5,10 @@
   "unity": "2021.3",
   "description": "Provides rendering and input support for Project Northstar/Open HMDs.",
   "keywords": [
-    "project northstar",
+    "projectnorthstar",
     "xr",
-    "reality"
+    "reality",
+    "xreditorsubsystem"
   ],
   "dependencies": {
     "com.unity.xr.management": "4.0.1"

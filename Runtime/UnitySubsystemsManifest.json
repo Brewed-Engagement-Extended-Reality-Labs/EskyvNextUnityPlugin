@@ -1,20 +1,17 @@
 {
-        "name": "Esky vNext",
-        "version": "0.0.0-preview.1",
-        "libraryName": "EskyvNext",
-        "displays": [
-                {
-                        "id": "EskyvNext Display",
-                        "supportedMirrorBlitReservedModes" : ["leftEye","rightEye", "sideBySide"]
+	"name": "Esky XR Plugin",
+	"version": "0.1.0-preview.1",
+	"libraryName": "EskyvNextUnityXRWrapper",
+	"displays": [
+			{
+					"id": "EskyvNext Display",
+					"supportedMirrorBlitReservedModes" : ["leftEye","rightEye", "sideBySide"]
 
-                }
-        ],
-        "inputs": [
-                {
-                        "id": "EskyvNext Head Tracking"
-                },
-		    {
-                        "id": "EskyvNext Ultraleap Input"
-                }
-        ]
+			}
+	],
+	"inputs": [
+			{
+					"id": "EskyvNext Head Tracking"
+			}
+	]
 }
